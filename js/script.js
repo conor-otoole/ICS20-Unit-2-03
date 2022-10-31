@@ -1,7 +1,7 @@
-// Copyright (c) 2020 Mr. Coxall All rights reserved
+// Copyright (c) 2022 Conor All rights reserved
 //
-// Created by: Mr. Coxall
-// Created on: Sep 2020
+// Created by: Conor
+// Created on: Oct 2022
 // This file contains the JS functions for index.html
 
 /**
@@ -9,10 +9,10 @@
  */
 function enterClicked() {
   // input
-  const firstName = document.getElementById("first-name").value
-  const userAge = parseInt(document.getElementById("age-entered").value)
+  const StreetNumber = document.getElementById("street-number").value
+  const StreetAddress = parseInt(document.getElementById("street-address").value)
 
   // output
   document.getElementById("address").innerHTML =
-    "Your info is: " + firstName + ", age " + userAge + "."
+    "Your street number is " + StreetNumber + ", address " + StreetAddress + "."
 }
